@@ -1,0 +1,14 @@
+CREATE TABLE mysql_test ( 
+id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY, 
+transanction_timestamp VARCHAR(30) NOT NULL, 
+transaction_id VARCHAR(30) NOT NULL,  
+customer_id VARCHAR(50) NOT NULL, 
+product_id VARCHAR(50) 
+); 
+
+
+INSERT INTO `mysql_test` (`id`, `transanction_timestamp`, `transaction_id`, `customer_id`, `product_id`) VALUES ('1', '13h20', '10', '100', '1000'); 
+INSERT INTO `mysql_test` (`id`, `transanction_timestamp`, `transaction_id`, `customer_id`, `product_id`) VALUES ('2', '13h30', '20', '200', '1100');
+INSERT INTO `mysql_test` (`id`, `transanction_timestamp`, `transaction_id`, `customer_id`, `product_id`) VALUES ('3', '13h40', '30', '300', '1200');
+INSERT INTO `mysql_test` (`id`, `transanction_timestamp`, `transaction_id`, `customer_id`, `product_id`) VALUES ('4', '13h50', '40', '400', '1300');
+INSERT INTO `mysql_test` (`id`, `transanction_timestamp`, `transaction_id`, `customer_id`, `product_id`) VALUES ('5', '14h00', '50', '500', '1400');
